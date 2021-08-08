@@ -1,0 +1,53 @@
+hr {
+  width: 90%;
+}
+.wishlist__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.wishlist__img img {
+  border-radius: 4px;
+  width: 14rem;
+  height: 8rem;
+  object-fit: cover;
+}
+.wishlist__title > h2 {
+  font-size: 1.1rem;
+}
+.wishlist__qty > span {
+  border-bottom: 1px solid gray;
+  padding: 4px;
+}
+.wishlist__icon__btn {
+  outline: none !important;
+}
+.wishlist__dish__price {
+  color: orange;
+  font-weight: 800;
+}
+.wishlist__remove__btn {
+  width: 100%;
+  background-color: orange;
+  color: whitesmoke;
+  outline: none !important;
+  border: none;
+  height: 35px;
+  width: 14rem;
+  border-radius: 4px;
+  transition: all ease-in-out 0.3s;
+}
+.wishlist__remove__btn:hover {
+  background-color: whitesmoke;
+  color: orange;
+  border: 1px solid orange;
+}
+
+@media (max-width: 934px) {
+  .wishlist__container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,121 @@
+:root {
+  --primary: #fff;
+}
+
+.__btn {
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none !important;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.__btn--primary {
+  background-color: var(--primary);
+  color: #242424;
+  border: 1px solid var(--primary);
+}
+.__btn--menu {
+  background-color: orange !important;
+  color: var(--primary);
+  outline: none;
+}
+
+.__btn--outline {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+
+.__btn--medium {
+  padding: 8px 20px;
+  font-size: 18px;
+}
+
+.__btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.__btn--mobile {
+  text-align: center;
+  border-radius: 4px;
+  width: 80%;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: #fff;
+  padding: 14px 20px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+}
+
+.__btn--wide {
+  padding: 12px 64px;
+  font-size: 20px;
+}
+
+.__btn--large:hover,
+.__btn--medium:hover,
+.__btn--mobile:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+}
+.__btn--primary:hover {
+  color: #fff;
+  background-color: orange;
+}
+
+.__btn--wide:hover {
+  color: #fff;
+  background-color: #f00946;
+  transition: all 0.2s ease-out;
+}
+
+.__btn-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
+}
+
+.__blue {
+  background-color: #276afb;
+  color: #fff;
+  border: none;
+}
+
+.__red {
+  background-color: #f00946;
+  color: #fff;
+  border: none;
+}
+
+.__primary {
+  background-color: #242424;
+  color: #fff;
+  border: none;
+}
+
+.__primary:hover {
+  background-color: #fff;
+  color: #242424;
+  border: none;
+}
+
+.__green {
+  background: #25ce4a;
+  color: #fff;
+  border: none;
+}
+
+.__green:hover {
+  background-color: #242424;
+}
